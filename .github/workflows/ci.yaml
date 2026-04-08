@@ -1,0 +1,8 @@
+name: git-hub
+on: 
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+       - run: echo "hi this is vasu"
